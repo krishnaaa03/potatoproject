@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p><strong>Category:</strong> {{ category }}</p>
+    <p><strong>Confidence:</strong> {{ confidence | round(2) }}</p>
+    <img src="{{ filepath }}" alt="Uploaded Image" style="max-width: 400px;">
+    <br>
+    <a href="/">Go Back</a>
+</body>
+</html>
